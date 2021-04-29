@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   text-align: center;
+  font-family: 'Roboto Mono', monospace;
 }
 ol, ul {
   list-style: none;
@@ -88,10 +89,24 @@ h1{
   font-size: 2rem;
   margin-top: 1rem;
 }
-table{
-  margin: 2rem auto;
+.boxes{
+  /* border: 1px solid black; */
+  width: 90%;
+  margin: 3rem auto;
 }
- td{
+.box{
   border: 1px solid black;
-  padding: 3rem;
+  padding: 2rem;
+  width: 100px;
+  height: 100px;
+}
+.h3{
+  font-size: 1.5rem;
+}
+.flex{
+  display: flex;
+  align-items:center;
+}
+.wrap{
+  flex-wrap: wrap;
 }
