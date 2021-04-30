@@ -1,0 +1,18 @@
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 1rem;
+    background-color: purple;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.h1{
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: red;
+    width: 200px;
+    height: 30px;
+}
