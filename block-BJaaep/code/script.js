@@ -5,6 +5,7 @@ let container = document.querySelector('.container')
 
 let count = 0;
 
+
 for(let i = 0 ; i < 12 ; i++){
     let li = document.createElement('li');
     li.classList.add('box')
@@ -14,12 +15,12 @@ for(let i = 0 ; i < 12 ; i++){
 
     li.addEventListener('click', function(){
         count += 1;
-      let text =   li.innerText = count
+        li.innerText = count
 
-        return text;
-        //  setInterval(() => {
-        //     text.style.display = 'none'
-        // }, 2000);
+        
+         setInterval(() => {
+            li.style.display = 'none'
+        }, 2000);
     })
 
 
