@@ -51,6 +51,7 @@ table {
 h1{
     font-size: 3rem;
     text-align: center;
+    margin-top: 2rem;
 }
 .calc_section{
     width: 30%;
@@ -66,7 +67,7 @@ h1{
     font-size: 5rem;
 }
 .btn{
-    width: 140px;
+    width: 130px;
     height: 90px;
     margin: 6px;
     font-size: 4rem;
@@ -98,4 +99,20 @@ h1{
 .equal{
     background-color: #018080;
     color: #ffffff;
+    /* height: 200px; */
+}
+.num{
+    width: 190px;
+}
+.btn:hover{
+    background-color:#cfcfcf93 ;
+}
+.purple:hover{
+    background-color:#710133be;
+}
+.teal:hover{
+background-color: #3d1b10c9;
+}
+.equal:hover{
+    background-color:#018080c7 ;
 }
