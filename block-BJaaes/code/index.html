@@ -5,9 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Form Validation 👇</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   </head>
   <body>
    
+    <form>
+      <legend class="caption">Login Form</legend>
+      <fieldset>
+        <label>Enter Username
+          <input type="text" name="username" id="username" placeholder="Enter Username">
+          <p class="message"></p>
+        </label>
+
+        <label for="name"> Enter Your Name
+          <input type="text" name="name" id="name" placeholder="Enter Your Name">
+          <p class="message"></p>
+        </label>
+
+        <label for="email"> Enter Your Email
+          <input type="email" name="email" id="email" placeholder="Enter Your Email">
+          <p class="message"></p>
+        </label>
+
+        <label for="phoneNumber"> Enter Phone Number
+          <input type="number" name="phoneNumber" id="phoneNumber" placeholder="Enter Phone Number">
+          <p class="message"></p>
+        </label>
+
+        <label for="password"> Enter Your Password
+          <input type="password" name="password" id="password" placeholder="Enter Password">
+          <p class="message"></p>
+        </label>
+
+        <label for="conformPassword"> Conform Password
+          <input type="text" name="conformPassword" id="conformPassword" placeholder="Conform Password">
+          <p class="message"></p>
+        </label>
+
+        <button>Submit</button>
+      </fieldset>
+    </form>
+
+
     <script src="./script.js"></script>
   </body>
 </html>
