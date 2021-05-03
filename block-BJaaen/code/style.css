@@ -102,11 +102,13 @@ h2{
     
 }
 .mid, .bottom, .reset_div{
-    padding: 0rem 10rem;
+    padding: 0rem 15rem;
+    /* margin:2rem auto; */
+    /* text-align: center; */
 }
 .output-div{
     height: 200px;
-    background-color: wheat;
+    background-color: rgba(245, 222, 179, 0.24);
     margin-top: 2rem;
     
 }
@@ -119,4 +121,14 @@ h2{
     margin-left: 2rem;
     font-weight: 900;
     color: teal;
+}
+
+.selected{
+    background-color: tomato;
+    /* border-radius: 50%; */
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
