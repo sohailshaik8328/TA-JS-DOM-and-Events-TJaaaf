@@ -47,7 +47,7 @@ function createModal(){
     modal.style.display = 'block'
 }
 
-form.addEventListener('submit', handleSubmit);
+form.addEventListener('submit', handleSubmit)
 
 close.addEventListener('click', () => {
     modal.style.display = 'none'
