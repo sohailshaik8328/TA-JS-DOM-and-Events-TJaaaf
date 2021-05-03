@@ -55,6 +55,8 @@ form{
     background: linear-gradient(#00d2ff, #3a7bd5);
     padding: 3rem 5rem;
     border-radius: 5px;
+    box-shadow: -2px -2px 10px rgba(128, 128, 128, 0.801),
+    2px 2px 10px rgba(128, 128, 128, 0.719);
 }
 legend{
     font-size: 4rem;
@@ -69,6 +71,9 @@ input{
     outline: none;
     margin: 1rem 0;
     padding: 1rem ;
+    border: 2px solid #f00010c5;
+    box-shadow: -2px -2px 10px rgb(128, 128, 128),
+    2px 2px 10px rgba(128, 128, 128, 0.993);
 }
 .flex{
     display: flex;
@@ -84,6 +89,7 @@ input{
     padding: 1rem;
     border-radius: 6px;
     margin: 1rem 0;
+    
 }
 .checkbox{
     width: 25px;
