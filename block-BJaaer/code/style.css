@@ -53,6 +53,9 @@ button {
 
 body {
   margin-top: 2rem;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
 }
 
 input[type='text'] {
@@ -91,3 +94,38 @@ input[type='text'] {
 .terms {
   display: inline-block;
 }
+.modal{
+  width: 30%;
+  background-color: #ffffff;
+  border-radius: 6px;
+  /* padding: 2rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  transform: scale(1.0);
+  transition: ease-in-out 1s;
+  margin: auto;
+}
+.box{
+  font-size: 2rem;
+  letter-spacing: 1px;
+  /* font-weight: 600; */
+  line-height: 2;
+  display: block;
+}
+h2{
+  font-weight: 600;
+}
+.close{
+  font-size: 2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  /* text-align: center; */
+  /* margin-left: 300px; */
+}
+.close_div{
+  /* margin:  2rem auto; */
+  text-align: center;
+}
+
