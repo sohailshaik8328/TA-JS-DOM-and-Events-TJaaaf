@@ -110,7 +110,7 @@ label, input{
 }
 label{
   font-size: 1.6rem;
-  margin: 4rem 0;
+  margin: 2rem 0;
 }
 input{
   width: 100%;
@@ -143,4 +143,5 @@ button{
 }
 .sucess{
   border: 2px solid green;
+  background-color: #E8F0FE;
 }
