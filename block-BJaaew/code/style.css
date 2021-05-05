@@ -95,7 +95,7 @@ h1{
 .buttons{
   margin: 2rem 0;
 }
-button{
+.button, .knowMoreBtn{
   background-color: black;
   color: #ffffff;
   padding: 1rem 2rem;
@@ -103,8 +103,10 @@ button{
   border-radius: 6px;
   margin: 0 1rem; 
   cursor: pointer;
+  list-style: none;
+  text-transform: uppercase;
 }
-button:hover{
+.button:hover, .knowMoreBtn:hover{
   background-color: rgba(0, 0, 0, 0.877);
   transform: scale(1.1);
   transition: all 0.2s;
@@ -140,6 +142,12 @@ button:hover{
   padding: 1rem;
   font-size: 1.2rem;
   margin-top: 2rem;
+}
+.active{
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 6px;
 }
 
 
