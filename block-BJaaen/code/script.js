@@ -110,5 +110,7 @@ reset.addEventListener('click', () => {
     createUserLayout();
     createComputerLayout();
     output = ""
+    count = 0
+    computer_count = 0
 })
 
